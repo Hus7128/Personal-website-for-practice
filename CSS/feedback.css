@@ -1,0 +1,78 @@
+
+/* -----------------------------------------Eliminate the margin in each pages------------------------------- */
+/* Eliminate the margin of div */
+body{margin:0px; background-color: whitesmoke;}
+
+/* Eliminate the margin of table */
+.table {border-collapse:collapse;}
+.col3 {
+    height: 160px;
+}
+
+.row3 {
+    width: 45px;
+}
+
+.iframe {
+    width: 600px;
+    height: 400px;
+    
+}
+
+.button2 {
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    padding-right: 40px;
+    border: 0px;
+}
+
+form {
+    background-color: whitesmoke;
+    border: 5px solid lightslategrey;
+    padding: 7px;
+    width: 520px;
+    line-height: 40px;
+}
+
+label {
+    font-weight: bold; 
+    height: 10px;
+}
+
+input[type=text] {
+    width: 500px;
+}
+
+textarea {
+    width: 500px; 
+    height: 100px; 
+    padding: 7px;
+}
+
+input {
+    padding: 7px;
+}
+
+.Clear,
+.Send {
+    background-color: lightslategrey;
+    border: 0px solid lightslategrey;
+    color: white;
+
+    font-size: 16px;
+    height: 30px;
+    width: 70px;
+}
+
+.Clear:hover{
+    background-color: rgb(30, 73, 117);
+}
+
+.Send:hover{
+    background-color: rgb(30, 73, 117);
+}
