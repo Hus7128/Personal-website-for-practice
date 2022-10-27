@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* -----------------------------------------Eliminate the margin in each pages------------------------------- */
+/* Eliminate the margin of div */
+body{margin:0px; background-color: whitesmoke;}
+
+/* Eliminate the margin of table */
+.table {border-collapse:collapse;}
+  
+.scorll {
+  /* No gap in photo */
+  font-size: 0%;
+  overflow: auto;
+  white-space: nowrap;
+  /* set scorll block */
+  display: inline-block;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+  
+
+/* before choose and hover, every image look little grey */
+.thumbnail {
+  opacity: 0.6;
+}
+
+/* highlight the image I choose */
+.active,
+.thumbnail:hover {
+  opacity: 1;
+}
+  
+.container {
+  position: relative;
+}
+  
+/* hide images */
+.mySlides {
+  display: none;
+}
+
+/* hide texts */
+.myTexts {
+  display: none;
+}
+  
+.number {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  padding: 6px 10px;
+  top: 0;
+  /* make the white number easier to see in some pages */
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+  
+/* Container for image text */
+.text_container {
+  text-align: center;
+}
+  

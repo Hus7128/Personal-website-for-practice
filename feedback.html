@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>feedback</title>
+    <link rel="stylesheet" href="CSS/feedback.css">
+    <link rel="stylesheet" href="CSS/index_a3.css">
+    <link rel="stylesheet" href="CSS/index_about_me_a3.css">
+</head>
+<body>
+
+    <div class="navigation">
+        <div class="col">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="col1">
+            <a href=""> </a>
+        </div>
+        <div class="col">
+            <a href="index_about_me.html">About me</a>
+        </div>
+        <div class="col">
+            <a href="photo_gallery.html">My Journey</a>
+        </div>
+        <div class="col">
+            <a href="index_design.html">My Design</a>
+        </div>
+        <div class="col">
+            <a href="index_feedback.html">Feedback Form</a>
+        </div>
+    </div>
+
+    <table class="table">
+        <tr>
+            <td>
+                <div class="title2">Fill out the form</div>
+                <div class="content1">You can make your choice according to the content in the form. 
+                    We want to see complete feedback, but we respect your wishes and you can choose to fill some parts of it.
+                </div> 
+                    
+                <div class="content1">You can click the 'Send it' button to send your feedback to my email address.
+                </div>
+            </td>
+    
+            <td>
+                <h1>Feedback Form</h1>
+                <form enctype="text/plain">
+                    <label>Your name</label><br>
+                    <input type="text" name="site" size="34" maxlength="50" placeholder="Your name is..."><br>
+                    <label>Your email address</label>
+                    <input type="text" name="site" size="34" maxlength="50" placeholder="Your email is..."><br>
+                    <div id="choose">
+                        <label>What is your gender?</label><br>
+                        <!--use same name but different value-->
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                        <input type="radio" name="gender" value="Other"> Other
+                        <input type="radio" name="gender" value="I perfer not not say"> I perfer not not say <br>
+                    </div>
+                    <label>Please fill in your feedback below</label>
+                    <textarea rows="20" placeholder="Please type your feedback here..."></textarea><br>
+    
+                    <hr>
+                        <input type="button" value="Clear" class="Clear">
+                        <input type="button" value="Send it" class="Send"> 
+                    <hr>
+                </form>
+            </td>
+    
+            <td class="row3">
+                <a href=""> </a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
